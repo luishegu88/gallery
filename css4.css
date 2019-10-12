@@ -1,0 +1,119 @@
+
+.menu{
+    background-color: aquamarine;
+    margin:0;
+    height: 100px;
+    width:100%;
+}
+
+*{
+    margin: 0%;
+}
+
+
+.main-article {
+    background-color: orange;
+    float:left;
+    width: 100%;
+    height: 100%;
+}
+
+
+.main-article img{
+    background-color: orange;
+    float:right;
+    width: 50%;
+    height: 50%;
+}
+
+.main-article p{
+    margin-top:50px;
+    text-align:justify;
+    float:left;
+    width: 50%;
+    height: 50%;
+}
+
+.sidebar{
+    background-color: pink;
+    float:left;
+    width: 30%;
+}
+
+.main{
+    margin: 0 auto;
+    widows: 80%;
+    background-color: red;
+}
+.contains-float-elements::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+
+
+.footer{
+background-color: blue;
+}
+
+.footer div{
+        
+    width: 31.33%;
+    height: 200px;
+    background-size: cover;
+    float:left;
+    margin: 1%;
+} 
+    
+
+.banner{    
+     background: url("banner.jpg") no-repeat fixed center;
+   background-size: cover;
+   height: 500px;
+   width: 100% ;
+   text-align: center;
+} 
+
+
+
+@media screen and (max-width:650px){
+    .footer div{
+      width:48%;
+    }
+}
+
+@media screen and (max-width:550px){
+ .footer div{
+   width:98%;
+ }
+}
+
+
+
+#uno{
+    background-image:url("torre.jpg");
+}
+    
+#dos{
+    background-image:url("montana.jpg");
+}
+#tres{
+    background-image:url("cascada.jpg");
+}
+#cuatro{
+    background-image:url("arboles.jpg");
+}
+#cinco{
+    background-image:url("globos.jpg");
+}
+#seis{
+    background-image:url("montanas.jpg");
+}
+
+
+/*Instruccion de cover
+
+background-image:url("");
+background-size:cover;
+*/

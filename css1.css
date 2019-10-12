@@ -1,0 +1,62 @@
+.my-yellow{
+font-family: Arial, Helvetica, sans-serif;
+color:yellow;
+}
+
+.class1{
+    color:green;
+}
+
+.class2{
+    color:pink;
+}
+
+/*Selector de hermanos
+los mas son para adyacentes y cuando va seguido sin signo de mas, es hijo (inmediato)
+el important vale mas*/
+
+body{
+    font-family: mansalva;
+    background-image: url("https://www.w3schools.com/cssref/paper.gif")}
+
+
+h1+p:{
+    color:pink;
+    background-color: aquamarine;
+}
+
+/**Selector de a*/
+
+a[href=https://www.google.com]{
+    color:green;
+}
+
+a:nth-of-type(3){
+    color:purple;
+}
+
+/*even es para los numero ordenados par, odd es para los ordenados impar*/
+
+a:nth-of-type(3n+2){
+    color:gray;
+}
+
+/*primer hijo de su padre
+p:first-child{
+    color:greenyellow;
+}
+*/
+/*El primero de su tipo
+p:first-of-type{
+    color:blue;
+}
+*/
+/*agrupar tipos*/
+/*
+h1,p,h2{
+color:fuchsia;
+background-color: aquamarine;
+}
+*/
+
+

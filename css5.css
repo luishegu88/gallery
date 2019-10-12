@@ -1,0 +1,88 @@
+
+
+
+.contains-float-elements::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.gallery{
+    
+    width: 80%;
+    margin:0 auto;
+ 
+    }
+
+h1{
+    
+    margin: 1 ;
+    border-bottom: 1px solid black;
+    width: 33%;
+    
+}
+
+    .gallery div{
+        
+        background-image:url("clasico.jpg");
+        width: 31.33%;
+        height: 200px;
+        background-size: cover;
+        float:left;
+        margin: 1%;
+    } 
+        
+        
+
+ #uno{
+    background-image:url("torre.jpg");
+}
+    
+#dos{
+    background-image:url("montana.jpg");
+}
+#tres{
+    background-image:url("cascada.jpg");
+}
+#cuatro{
+    background-image:url("arboles.jpg");
+}
+#cinco{
+    background-image:url("globos.jpg");
+}
+#seis{
+    background-image:url("montanas.jpg");
+}
+#siete{
+    background-image:url("mar.jpg");
+}
+#ocho{
+    background-image:url("piramide.jpg");
+}
+#nueve{
+    background-image:url("torre.jpg");
+}
+
+       @media screen and (max-width:650px){
+           .gallery div{
+             width:48%;
+           }
+       }
+
+       @media screen and (max-width:550px){
+        .gallery div{
+          width:98%;
+        }
+    }
+
+    @media screen and (max-width:650px){
+        h1 {
+          width:48%;
+        }
+    }
+
+    @media screen and (max-width:550px){
+        h1{
+       width:98%;
+     }
+ }

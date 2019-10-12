@@ -1,0 +1,50 @@
+
+p{
+    font-family: 'Be Vietnam', sans-serif;
+    text-align: justify;
+    padding :20px;
+}
+
+h1{
+     
+    font-family: 'Be Vietnam', sans-serif;
+        color: gray;
+        
+}
+
+h3{
+     
+    font-family: 'Be Vietnam', sans-serif;
+        color: black;
+        padding-top :5px;   
+        padding-left :25px;
+        padding-right :25px;    
+        text-align: justify; 
+}
+
+h2{
+    
+    letter-spacing: 3px;  
+    color:blue;
+    font-family: 'Be Vietnam', sans-serif;
+    font-size: 15px;
+}
+
+body{
+ border: 10px solid gray;
+width: 60%;
+margin:auto;
+padding:10px;
+}
+
+.contenedor1{
+    border-left: 3px solid blue; 
+    height: 200px;   
+}
+
+
+
+
+
+
+
